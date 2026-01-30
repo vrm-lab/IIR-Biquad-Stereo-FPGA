@@ -1,22 +1,72 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# --------------------------------------------------
+
+# FPGA / Vivado / Vitis
+
+# --------------------------------------------------
+
+*.jou
+*.log
+*.str
+*.tmp
+*.cache
+*.hw
+*.runs
+*.sim
+*.ip_user_files
+*.xpr
+*.hwh
+*.bit
+*.ltx
+*.sdk
+*.Xil
+
+# --------------------------------------------------
+
+# Simulation Artifacts
+
+# --------------------------------------------------
+
+*.vcd
+*.wdb
+*.fst
+*.ghw
+
+# --------------------------------------------------
+
+# OS / Editor
+
+# --------------------------------------------------
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+
+# --------------------------------------------------
+
+# Python / Plotting Outputs
+
+# --------------------------------------------------
+
+**pycache**/
+*.pyc
+*.png
+
+# --------------------------------------------------
+
+# Keep CSV results (explicitly versioned)
+
+# --------------------------------------------------
+
+!*.csv
+
+# --------------------------------------------------
+
+# Notes
+
+# --------------------------------------------------
+
+# Vivado projects and generated binaries are
+
+# intentionally excluded from this repository.
