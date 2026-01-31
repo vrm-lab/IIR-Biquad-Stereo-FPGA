@@ -5,6 +5,8 @@ This repository provides a **reference RTL implementation** of a **second-order 
 Target platform: **AMD Kria KV260**
 Focus: **RTL architecture, fixed-point DSP decisions, and AXI correctness**
 
+This is a true real-time streaming design; no frame buffering or offline-style processing is used.
+
 ---
 
 ## Overview
